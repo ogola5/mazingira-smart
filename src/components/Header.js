@@ -7,7 +7,9 @@ function Header() {
     <header className="header">
       <div className="logo-container">
         {/* Assuming you have a logo image, include it here */}
-        <img src="./images.LOGO1.png" alt="Mazingira Smart Logo" />
+        <img src="/images/LOGO1.png" alt="Descriptive Alt Text" />
+
+
       </div>
       {/* <Navbar /> */}
     </header>

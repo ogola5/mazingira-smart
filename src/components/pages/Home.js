@@ -1,26 +1,44 @@
-import React from 'react';
-import Navbar from '../Navbar'; // Import NavBar
+import React, { useEffect } from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
-// Import any other components that are specific to the Home page
-// import './Home.css'; // Uncomment and use if you have specific Home page styling
+import About from './About';
+import Contact from './Contact';
+import Goals from './Goals';
+import Project from './Project';
+import '../styles/home.css';
+
 
 function Home() {
+    useEffect(() => {
+        const handleScroll = () => {
+          document.querySelectorAll('.home-content > *').forEach((section) => {
+            if (section.getBoundingClientRect().top < window.innerHeight / 1.5) {
+              section.classList.add('visible');
+            }
+          });
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+        handleScroll(); // Run on initial load
+    
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
   return (
     <div className="home-container">
-      {/* <Navbar />  */}
       <Header />
-       {/* Include the NavBar component */}
-      {/* Banner or welcome message component */}
-      {/* Summarized sections or components for About, Goals, Projects, and VisionMission */}
-      {/* Each section should have a "Read More" link or button that navigates to the respective page */}
-      {/* Any other content specific to the Home page */}
+      <div className="home-background-image">
+        <img src="/images/back.jpg" alt="Background" />
+      </div>
+      <div className="home-content">
+        <About />
+        <Goals />
+        <Project />
+        <Contact />
+      </div>
       <Footer />
     </div>
   );
 }
 
 export default Home;
-
-
-
