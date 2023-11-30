@@ -1,0 +1,53 @@
+/* NavBar.module.css */
+.navbar {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+  
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+  
+.navbar li {
+    padding: 0 20px;
+}
+  
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+  
+.navbar a:hover {
+    color: #ddd;
+}
+  
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navbar li {
+      text-align: center;
+      padding: 10px 0;
+    }
+  }
+  
+@media (max-width: 480px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar li {
+      padding: 5px 0;
+    }
+}
+  

@@ -1,0 +1,50 @@
+.footer {
+    background-color: #2e7d32; /* Dark green color for footer */
+    color: white;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+}
+  
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 0 20px;
+}
+  
+.footer-section {
+    margin: 0 15px;
+}
+  
+.footer-section h3 {
+    margin-bottom: 10px;
+}
+  
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+  
+/* Responsiveness */
+@media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-section {
+      margin-bottom: 20px;
+    }
+}
+  
+/* Style adjustments for smaller screens */
+@media (max-width: 480px) {
+    .footer-section h3 {
+      font-size: 16px;
+    }
+  
+    .footer-section p {
+      font-size: 12px;
+    }
+}
+  
