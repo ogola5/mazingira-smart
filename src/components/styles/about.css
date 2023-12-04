@@ -1,74 +1,91 @@
 /* Base styling */
 .about-page {
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
-    color: #333;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  color: #333;
 }
-  
+
 /* Styling for sections */
-.about-section, .vision-mission {
-    margin-bottom: 30px;
-    background-color: #e8f5e9; /* Light green background for an eco-friendly feel */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+.about-section,
+.vision-mission {
+  margin-bottom: 30px;
+  background-color: #e8f5e9; /* Light green background for an eco-friendly feel */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-  
+
 /* Headings styling */
-.about-section h1, .vision-mission h2 {
-    color: #2e7d32; /* Dark green color */
-    margin-bottom: 15px;
-    font-size: 28px;
+.about-section h1,
+.vision-mission h2 {
+  color: #2e7d32; /* Dark green color */
+  margin-bottom: 15px;
+  font-size: 28px;
 }
-  
+
 /* Paragraph styling with animation */
-.about-section p, .vision-mission p {
-    font-size: 16px;
-    line-height: 1.6;
-    position: relative;
-    overflow: hidden; /* Hide overflow for animation */
-    max-height: 100px; /* Adjust as needed */
-    animation: typing 4s steps(40) 1s forwards, blink-caret .75s step-end infinite;
+.about-section p,
+.vision-mission p {
+  font-size: 16px;
+  line-height: 1.6;
+  position: relative;
+  overflow: hidden; /* Hide overflow for animation */
+  max-height: 100px; /* Adjust as needed */
+  animation: typing 4s steps(40) 1s forwards,
+    blink-caret 0.75s step-end infinite;
 }
-  
+
 /* Typing animation */
 @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* Cursor animation */
 @keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: black; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
 }
-  
+
 /* Responsive design for different screen sizes */
 @media (max-width: 768px) {
-    .about-section h1, .vision-mission h2 {
-      font-size: 24px;
-    }
-  
-    .about-section p, .vision-mission p {
-      font-size: 14px;
-    }
+  .about-section h1,
+  .vision-mission h2 {
+    font-size: 24px;
+  }
+
+  .about-section p,
+  .vision-mission p {
+    font-size: 14px;
+  }
 }
-  
+
 @media (max-width: 480px) {
-    .about-page {
-      padding: 10px;
-    }
-  
-    .about-section, .vision-mission {
-      padding: 15px;
-    }
-  
-    .about-section h1, .vision-mission h2 {
-      font-size: 20px;
-    }
-  
-    .about-section p, .vision-mission p {
-      font-size: 12px;
-    }
+  .about-page {
+    padding: 10px;
+  }
+
+  .about-section,
+  .vision-mission {
+    padding: 15px;
+  }
+
+  .about-section h1,
+  .vision-mission h2 {
+    font-size: 20px;
+  }
+
+  .about-section p,
+  .vision-mission p {
+    font-size: 15px;
+  }
 }
-  

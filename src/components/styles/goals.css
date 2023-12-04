@@ -1,57 +1,57 @@
 .goals-page {
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
 }
-  
+
 .goals-page h1 {
-    color: #2e7d32; /* Eco-friendly green color */
-    text-align: center;
-    margin-bottom: 30px;
+  color: #2e7d32; /* Eco-friendly green color */
+  text-align: center;
+  margin-bottom: 30px;
 }
-  
+
 .goal {
-    background-color: #e8f5e9; /* Light green for an eco-friendly feel */
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #e8f5e9; /* Light green for an eco-friendly feel */
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
-  
+
 .goal h2 {
-    color: #1b5e20; /* Darker green for headings */
-    margin-bottom: 10px;
+  color: #1b5e20; /* Darker green for headings */
+  margin-bottom: 10px;
 }
-  
+
 .goal p {
-    font-size: 16px;
-    line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.6;
 }
-  
+
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
-    .goal h2 {
-      font-size: 18px;
-    }
-  
-    .goal p {
-      font-size: 14px;
-    }
+  .goal h2 {
+    font-size: 18px;
+  }
+
+  .goal p {
+    font-size: 14px;
+  }
 }
-  
+
 @media (max-width: 480px) {
-    .goals-page {
-      padding: 10px;
-    }
-  
-    .goal {
-      padding: 10px;
-    }
-  
-    .goal h2 {
-      font-size: 16px;
-    }
-  
-    .goal p {
-      font-size: 12px;
-    }
+  .goals-page {
+    padding: 10px;
+  }
+
+  .goal {
+    padding: 10px;
+  }
+
+  .goal h2 {
+    font-size: 16px;
+  }
+
+  .goal p {
+    font-size: 14px;
+  }
 }
