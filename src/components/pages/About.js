@@ -1,24 +1,24 @@
-import React from 'react';
-import '../styles/about.css'; // Import the CSS file for styling
+import React from "react";
+import "../styles/about.css"; // Import the CSS file for styling
 
 function About() {
   return (
     <div className="about-page">
       <section className="about-section">
-        <h1>About Mazingira Smart</h1>
+        <h1>Welcome to Mazingira</h1>
         <p>
-          Mazingira Smart stands at the forefront of environmental 
-          stewardship and sustainability. Our key thematic areas include 
-          afforestation, reafforestation, recycling, and climate-smart agriculture.
+          Mazingira Smart stands at the forefront of environmental stewardship
+          and sustainability. Our key thematic areas include afforestation,
+          reafforestation, recycling, and climate-smart agriculture.
         </p>
         <p>
-          We believe in the power of community and the importance of 
-          socio-economic empowerment, especially for youth and women. 
-          Our initiatives aim to provide sustainable livelihoods and 
-          promote environmental conservation.
+          We believe in the power of community and the importance of
+          socio-economic empowerment, especially for youth and women. Our
+          initiatives aim to provide sustainable livelihoods and promote
+          environmental conservation.
         </p>
       </section>
-
+      {/* 
       <section className="vision-mission">
         <h2>Our Vision and Mission</h2>
         <p>
@@ -32,8 +32,8 @@ function About() {
           to addressing the challenges posed by climate change and promoting 
           responsible resource management.
         </p>
-      </section>
-      
+      </section> */}
+
       {/* More sections can be added based on the PDF content */}
     </div>
   );
