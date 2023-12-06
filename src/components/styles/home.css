@@ -25,21 +25,21 @@
 }
 
 .home-content > * {
-  width: 50%; /* Adjust the width as needed */
+  max-width: 100%; /* Adjust the width as needed */
   margin: 1rem 0;
   padding: 2rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
   border-radius: 10px;
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(100px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 /* When the element comes into view, these styles will trigger the 'fade in' and 'move up' effects */
 .home-content > *.visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(2);
 }
 
 /* Add responsive styling as needed */
