@@ -5,10 +5,6 @@ import Navbar from "./Navbar"; // Import the Navbar component
 function Header() {
   return (
     <header className="header">
-      <div className="logo-container">
-        {/* Assuming you have a logo image, include it here */}
-        {/* <img src="/images/logo.png" alt="Descriptive Alt Text" /> */}
-      </div>
       <Navbar />
     </header>
   );

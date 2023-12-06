@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 // import Header from "../Header";
 // import Footer from "../Footer";
-import About from "./About";
+import Welcome from "./Welcome";
+// import About from "./About";
 import Contact from "./Contact";
 import Goals from "./Goals";
 import Project from "./Project";
@@ -30,7 +31,8 @@ function Home() {
         {/* <img src="/images/back.jpg" alt="Background" /> */}
       </div>
       <div className="home-content">
-        <About />
+        <Welcome />
+        {/* <About /> */}
         <Goals />
         <Project />
         <Contact />
