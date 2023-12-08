@@ -1,20 +1,25 @@
 .footer {
-  background-color: #04472c; /* Dark green color for footer */
+  background-color: #336021; /* Dark green color for footer */
   color: white;
   padding: 20px 0;
   font-family: "Arial", sans-serif;
+  margin-top: 0.5rem;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  padding: 0 20px;
+  padding: 0 90px;
 }
 
-.footer-section {
+.about {
   margin: 0 15px;
   max-width: 33%;
+}
+.social {
+  /* margin: 0 15px; */
+  max-width: 20%;
 }
 
 .footer-section h3 {
