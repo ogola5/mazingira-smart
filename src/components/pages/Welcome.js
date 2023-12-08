@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/welcome.css";
 
-const welcome = () => {
+const Welcome = () => {
   return (
     <div>
       <div class="undefined mx-auto max-w-7xl sm:px-0">
@@ -84,7 +84,7 @@ const welcome = () => {
             ></div>
             <div class="relative z-10">
               <img
-                src="../../../images/welcome.png"
+                src="../../../images/welcome.jpg"
                 alt="mazingira-smart"
                 class="object-cover w-full h-full"
               />
@@ -123,4 +123,4 @@ const welcome = () => {
 //   );
 // };
 
-export default welcome;
+export default Welcome;

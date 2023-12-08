@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 // import Footer from "../Footer";
 import Welcome from "./Welcome";
 // import About from "./About";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 import Goals from "./Goals";
 import Project from "./Project";
 import "../styles/home.css";
@@ -35,7 +35,7 @@ function Home() {
         {/* <About /> */}
         <Goals />
         <Project />
-        <Contact />
+        {/* <Contact /> */}
       </div>
       {/* <Footer /> */}
     </div>

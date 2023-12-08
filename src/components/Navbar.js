@@ -31,22 +31,27 @@ function NavBar() {
           <ul className="links" ref={linksRef}>
             <li>
               <Link to="/" className="nav-link">
-                Home
+                HOME
               </Link>
             </li>
             <li>
               <Link to="/about" className="nav-link">
-                About
+                ABOUT
               </Link>
             </li>
             <li>
               <Link to="/projects" className="nav-link">
-                Projects
+                PROJECTS
               </Link>
             </li>
             <li>
               <Link to="/contact" className="nav-link">
-                Contact
+                CONTACT
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="nav-link nav-donate">
+                DONATE
               </Link>
             </li>
           </ul>

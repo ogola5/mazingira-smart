@@ -11,7 +11,7 @@ Variables
   --clr-primary-3: hsl(205, 72%, 37%);
   --clr-primary-4: hsl(205, 63%, 48%);
   /* primary/main color */
-  --clr-primary-5: #325e4f;
+  --clr-primary-5: #336021;
   /* lighter shades of primary color */
   --clr-primary-6: hsl(205, 89%, 70%);
   --clr-primary-7: hsl(205, 90%, 76%);
@@ -19,7 +19,7 @@ Variables
   --clr-primary-9: hsl(205, 90%, 88%);
   --clr-primary-10: hsl(205, 100%, 96%);
   /* darkest grey - used for headings */
-  --clr-grey-1: #2e4039;
+  --clr-grey-1: #cbb62e;
   --clr-grey-2: hsl(211, 39%, 23%);
   --clr-grey-3: hsl(209, 34%, 30%);
   --clr-grey-4: hsl(209, 28%, 39%);
@@ -31,7 +31,7 @@ Variables
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
-  --clr-green: #04472c;
+  --clr-green: #336021;
   /* --clr-red-dark: hsl(360, 67%, 44%); */
   /* --clr-red-light: hsl(360, 71%, 66%); */
   --clr-green-dark: #044014;
@@ -168,7 +168,7 @@ nav {
 }
 .links a {
   color: var(--clr-white);
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -176,7 +176,7 @@ nav {
   transition: var(--transition);
 }
 .links a:hover {
-  background: var(--clr-primary-8);
+  background: var(--clr-primary-3);
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
 }
@@ -188,6 +188,10 @@ nav {
 }
 .show-container {
   height: 10rem;
+}
+.nav-donate {
+  background-color: #fff;
+  color: var(--clr-green);
 }
 @media screen and (min-width: 800px) {
   .nav-center {
@@ -211,12 +215,17 @@ nav {
     display: flex;
   }
   .links a {
-    padding: 0;
+    padding: 0.5em;
     margin: 0 0.5rem;
   }
   .links a:hover {
     padding: 0;
     background: transparent;
+  }
+  .nav-donate {
+    background-color: #fff;
+    color: var(--clr-green) !important;
+    padding: 0.5em !important;
   }
 }
 
@@ -229,7 +238,7 @@ HERO
   display: flex;
   flex-direction: column;
   width: 100%;
-  color: var(--clr-black);
+  /* color: var(--clr-black); */
   /* margin: 1.2em auto; */
   /* background-color: var(--clr-green); */
 }
@@ -261,22 +270,26 @@ HERO
     max-width: 100%;
     object-fit: cover;
     align-self: stretch;
-    height: 600px;
-    top: 0;
+    height: 700px;
+    top: 1;
   }
   .hero--content {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    max-width: 80%;
     margin: 1.2em auto;
     z-index: 1;
     font-size: 2rem;
     font-weight: 600;
-    color: var(--clr-black);
-    margin-top: -20rem;
+    color: var(--clr-white);
+    margin-top: -12rem;
   }
   .hero--content h2 {
     font-size: 4rem;
+    color: var(--clr-white);
+  }
+  .hero--content p {
+    /* font-size: 4rem; */
     color: var(--clr-white);
   }
 }
