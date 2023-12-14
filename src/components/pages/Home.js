@@ -2,10 +2,11 @@ import React, { useEffect } from "react";
 // import Header from "../Header";
 // import Footer from "../Footer";
 import Welcome from "./Welcome";
+import Hero from "../Hero";
 // import About from "./About";
 // import Contact from "./Contact";
 import Goals from "./Goals";
-import Project from "./Project";
+import ProjectCard from "./ProjectCard";
 import "../styles/home.css";
 
 function Home() {
@@ -26,7 +27,8 @@ function Home() {
 
   return (
     <div className="home-container">
-      {/* <Header /> */}
+      <Hero />
+
       <div className="home-background-image">
         {/* <img src="/images/back.jpg" alt="Background" /> */}
       </div>
@@ -34,7 +36,7 @@ function Home() {
         <Welcome />
         {/* <About /> */}
         <Goals />
-        <Project />
+        <ProjectCard />
         {/* <Contact /> */}
       </div>
       {/* <Footer /> */}
