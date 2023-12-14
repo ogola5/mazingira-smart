@@ -67,9 +67,9 @@ const Welcome = () => {
               </div>
               <div class="absolute pt-12 mb-24 -mt-28 lg:-mt-40">
                 <a
-                  target="_blank"
+                  target=" "
                   rel="noreferrer"
-                  href="http://localhost:3000"
+                  href="/contact"
                   class="px-6 py-5 bg-secondary text-white ml-0.5 text-sm font-semibold rounded"
                 >
                   Join Us
@@ -78,10 +78,7 @@ const Welcome = () => {
             </div>
           </div>
           <div class="relative pt-4 lg:col-span-6">
-            <div
-              class="absolute z-0 h-24 translate-x-1/2 bg-contain translate-y-1/6 lg:-translate-y-10 lg:h-48 lg:translate-x-36 w-44 lg:block"
-              //   style="background-image: url('/static/home/openlearning_pattern.svg')"
-            ></div>
+            <div class="absolute z-0 h-24 translate-x-1/2 bg-contain translate-y-1/6 lg:-translate-y-10 lg:h-48 lg:translate-x-36 w-44 lg:block"></div>
             <div class="relative z-10">
               <img
                 src="../../../images/welcome.jpg"
@@ -95,32 +92,5 @@ const Welcome = () => {
     </div>
   );
 };
-
-// const welcome = () => {
-//   return (
-//     <div className="undefined">
-//       <div className="items-center">
-//         <div className="relative">
-//           <div className="section-intro">
-//             <p>Welcome to Mazingira</p>
-//           </div>
-//           <div className="wrapper">
-//             <div className="content"></div>
-//             <div className="absolute">
-//               <a
-//                 href="http://localhost:3000/"
-//                 target="_blank"
-//                 rel="noopener noreferrer"
-//               >
-//                 Join Us
-//               </a>
-//             </div>
-//           </div>
-//         </div>
-//         <div className="relative"></div>
-//       </div>
-//     </div>
-//   );
-// };
 
 export default Welcome;

@@ -95,7 +95,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-black);
+  /* color: var(--clr-white); */
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -176,7 +176,7 @@ nav {
   transition: var(--transition);
 }
 .links a:hover {
-  background: var(--clr-primary-3);
+  background: var(--clr-white);
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
 }
@@ -191,7 +191,11 @@ nav {
 }
 .nav-donate {
   background-color: #fff;
-  color: var(--clr-green);
+  color: var(--clr-green) !important;
+}
+.nav-donate :hover {
+  background-color: (var(--clr-green));
+  color: var(--clr-white) !important;
 }
 @media screen and (min-width: 800px) {
   .nav-center {
@@ -217,10 +221,12 @@ nav {
   .links a {
     padding: 0.5em;
     margin: 0 0.5rem;
+    color: var(--clr-white);
   }
   .links a:hover {
-    padding: 0;
-    background: transparent;
+    /* padding: 0; */
+    background: #fff;
+    color: #336021;
   }
   .nav-donate {
     background-color: #fff;
@@ -291,5 +297,77 @@ HERO
   .hero--content p {
     /* font-size: 4rem; */
     color: var(--clr-white);
+  }
+}
+
+/*
+===========
+INNER PAGES HERO
+===========
+*/
+.inner-hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* color: var(--clr-black); */
+  /* margin: 1.2em auto; */
+  /* background-color: var(--clr-green); */
+}
+
+.inner-hero--image {
+  max-width: 100%;
+  object-fit: cover;
+  align-self: stretch;
+  height: 400px;
+  top: 1;
+}
+.inner-hero--content {
+  display: flex;
+  flex-direction: column;
+  margin: 1.2em auto;
+  z-index: 1;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--clr-white);
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: -14rem;
+  align-items: center;
+  overflow: hidden;
+  max-height: 230px;
+}
+.inner-hero--content h2 {
+  font-size: 2rem;
+  color: var(--clr-white);
+}
+@media screen and (min-width: 800px) {
+  .inner-hero--image {
+    max-width: 100%;
+    object-fit: cover;
+    align-self: stretch;
+    height: 400px;
+    top: 1;
+  }
+  .inner-hero--content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 1.2em auto;
+    z-index: 1;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--clr-white);
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -14rem;
+    align-items: center;
+  }
+  .inner-hero--content h2 {
+    font-size: 4rem;
+    color: var(--clr-white);
+  }
+  .inner-hero--content p {
+    /* font-size: 4rem; */
+    color: var(--clr-white);
+    text-align: center;
+    line-height: 2rem;
   }
 }

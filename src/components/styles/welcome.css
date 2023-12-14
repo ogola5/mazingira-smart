@@ -1544,7 +1544,7 @@ video {
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(86 100 210 / var(--tw-bg-opacity));
+  background-color: #2e7d32;
 }
 
 .bg-secondary {
@@ -2250,7 +2250,7 @@ video {
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(86 100 210 / var(--tw-text-opacity));
+  color: #336021;
 }
 
 .text-secondary {
@@ -2266,6 +2266,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .underline {
