@@ -4,12 +4,12 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 export const social = [
   {
     id: 1,
-    url: "https://www.facebook.com",
+    url: "https://www.facebook.com/MazingiraSmart?mibextid=ZbWKwL",
     icon: <FaFacebook />,
   },
   {
     id: 2,
-    url: "https://www.twitter.com",
+    url: "https://x.com/mazingirasmart?s=21",
     icon: <FaTwitter />,
   },
   {
@@ -19,7 +19,7 @@ export const social = [
   },
   {
     id: 4,
-    url: "https://www.instagram.com",
+    url: "https://instagram.com/mazingirasmart?igshid=NGVhN2U2NjQ0Yg==",
     icon: <FaInstagram />,
   },
 ];

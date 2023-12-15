@@ -50,7 +50,7 @@ function Projects() {
         <div className="flex flex-col lg:grid lg:grid-cols-12 px-14 my-10 bg-light">
           <div className="flex flex-col lg:col-span-6 ">
             <img
-              src="../../../images/lightbulb.jpg"
+              src="../../../images/eco.jpg"
               alt="project"
               className="img-medium mx-auto"
             />
