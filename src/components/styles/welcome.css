@@ -308,6 +308,10 @@ video {
   height: auto;
   max-width: 100%;
 }
+.img-medium {
+  height: auto;
+  max-width: 60%;
+}
 
 [hidden] {
   display: none;
@@ -1551,7 +1555,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: #cbb62e;
 }
-
+.bg-light {
+  --tw-bg-opacity: 1;
+  background-color: #e8f5e9;
+}
 .bg-slate-300\/50 {
   background-color: rgba(203, 213, 225, 0.5);
 }
@@ -3669,6 +3676,12 @@ Projects
   background: var(--clr-gold);
   margin-left: auto;
   margin-right: auto;
+}
+.dash {
+  height: 20px;
+  width: 8rem;
+  border-color: #cbb62e;
+  border-top-width: 2px;
 }
 .btn-container {
   margin-bottom: 4rem;

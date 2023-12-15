@@ -126,7 +126,7 @@ function About() {
               <div className="lg:col-span-4">
                 <div className="img-container">
                   <img
-                    src="../../../images/tetu.jpeg"
+                    src="../../../images/person1.jpg"
                     alt="The team"
                     className="person-img"
                   />
@@ -140,7 +140,7 @@ function About() {
               <div className="lg:col-span-4">
                 <div className="img-container">
                   <img
-                    src="../../../images/tetu.jpeg"
+                    src="../../../images/person2.jpg"
                     alt="The team"
                     className="person-img"
                   />
@@ -156,7 +156,7 @@ function About() {
               <div className="lg:col-span-4">
                 <div className="img-container">
                   <img
-                    src="../../../images/tetu.jpeg"
+                    src="../../../images/person1.jpg"
                     alt="The team"
                     className="person-img"
                   />
@@ -170,7 +170,7 @@ function About() {
               <div className="lg:col-span-4">
                 <div className="img-container">
                   <img
-                    src="../../../images/tetu.jpeg"
+                    src="../../../images/person2.jpg"
                     alt="The team"
                     className="person-img"
                   />
