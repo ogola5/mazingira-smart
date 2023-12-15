@@ -7,7 +7,7 @@ import { MdMail } from "react-icons/md";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="footer-content">
+      <div className="footer-content px-14">
         <div className="footer-section about">
           <h3>About Mazingira Smart</h3>
           <p>
