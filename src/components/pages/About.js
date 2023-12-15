@@ -67,8 +67,8 @@ function About() {
           </div>
         </section>
 
-        <section className="vision-mission flex ">
-          <div>
+        <section className="vision-mission flex lg:grid lg:grid-cols-12 ">
+          <div className="flex flex-col lg:col-span-6">
             <MdLightbulbOutline size={50} />
             <h2>Vision</h2>
             <p>
@@ -85,7 +85,7 @@ function About() {
               inhabitants..
             </p>
           </div>
-          <div>
+          <div className="flex flex-col lg:col-span-6">
             <MdOutlineRocketLaunch size={50} />
             <h2>Mission</h2>
             <p>
@@ -120,7 +120,7 @@ function About() {
                 <h4 className="author">Peter Nderitu</h4>
                 <p className="job">Chair</p>
                 <p className="info">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
                 </p>
               </div>
               <div className="lg:col-span-4">
@@ -134,7 +134,7 @@ function About() {
                 <h4 className="author">Gerald Maina</h4>
                 <p className="job">Secretary</p>
                 <p className="info">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
                 </p>
               </div>
               <div className="lg:col-span-4">
@@ -148,7 +148,7 @@ function About() {
                 <h4 className="author">Dr. Paul Muriuki</h4>
                 <p className="job">Treasurer</p>
                 <p className="info">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
                 </p>
               </div>
             </article>
@@ -164,7 +164,7 @@ function About() {
                 <h4 className="author"> Job Gakuya</h4>
                 <p className="job">Board Member</p>
                 <p className="info">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
                 </p>
               </div>
               <div className="lg:col-span-4">
@@ -178,7 +178,7 @@ function About() {
                 <h4 className="author">Mercy Njoroge</h4>
                 <p className="job">Board Member</p>
                 <p className="info">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
                 </p>
               </div>
               <div className="lg:col-span-4">
@@ -192,7 +192,7 @@ function About() {
                 <h4 className="author">Daniel Gathieri</h4>
                 <p className="job">Board Member</p>
                 <p className="info">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
                 </p>
               </div>
             </article>
