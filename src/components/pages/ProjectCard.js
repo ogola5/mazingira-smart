@@ -25,24 +25,24 @@ function projectCard() {
         </article>
         <article class="menu-item">
           <img
-            src="/images/planting.jpeg"
+            src="/images/empower.jpeg"
             alt="tetu enviromental day"
             class="img"
           />
           <div class="item-info">
             <header className="text-primary">
-              <h5>Tree Planting during Tetu Constituency Environmental Day</h5>
-              <span class="item-price">Tetu</span>
+              <h5>Nyeri Town Clean Up Day</h5>
+              <span class="item-price"></span>
             </header>
             <p class="item-text text-black">
-              This event was a significant step towards afforestation,
-              contributing to the larger goal of planting 5000 trees annually to
-              promote biodiversity and economic empowerment through agriculture.
+              This event was held during The Nyeri Town Clean Up Day in
+              conjunction with the County Goverment of Nyeri and the Nyeri
+              Diaspora Leadership Academy NDLA.
             </p>
           </div>
         </article>
         <article class="menu-item">
-          <img src="/images/eco.jpg" alt="tree planting" class="img" />
+          <img src="/images/eco.jpeg" alt="tree planting" class="img" />
           <div class="item-info">
             <header className="text-primary">
               <h5>EcoEmpower Initiative | Total Rehab Center,</h5>
