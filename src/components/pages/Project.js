@@ -11,8 +11,8 @@ function Projects() {
           className="inner-hero--image"
         />
         <div className="inner-hero--content pb-10 mb-8 ">
-          <h2 className="mt-8">Our Projects</h2>
-          <p className="pb-10">
+          <h2>Our Projects</h2>
+          <p>
             Our organization remains at the forefront of environmental
             stewardship and sustainability initiatives. The major thematic areas
             include afforestation, reafforestation, recycling, climate-smart
@@ -50,7 +50,7 @@ function Projects() {
         <div className="flex flex-col lg:grid lg:grid-cols-12 px-14 my-10 bg-light">
           <div className="flex flex-col lg:col-span-6 ">
             <img
-              src="../../../images/eco.jpg"
+              src="../../../images/ecoempower.jpeg"
               alt="project"
               className="img-medium mx-auto"
             />
@@ -64,9 +64,12 @@ function Projects() {
               <div className="dash mt-4"></div>
             </div>
             <p className="leading-8 text-black ">
-              Visited and donated food and sanitary items to Total Rehab Center,
-              Kasarani that caters for children suffering from different
+              -Visited and donated food and sanitary items to Total Rehab
+              Center, Kasarani that caters for children suffering from different
               disorders including cerebral palsy.
+              <br />
+              -Nyeri Town Clean Up Day in conjunction with the County Government
+              of Nyeri and the Nyeri Diaspora Leadership Academy NDLA.
             </p>
           </div>
         </div>
@@ -91,7 +94,7 @@ function Projects() {
           </div>
           <div className="flex flex-col lg:col-span-6">
             <img
-              src="../../../images/lightbulb.jpg"
+              src="../../../images/innovation.jpeg"
               alt="project"
               className="img-medium mx-auto"
             />

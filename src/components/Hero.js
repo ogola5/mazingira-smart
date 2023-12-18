@@ -6,9 +6,7 @@ export default function Hero() {
       <img src="./images/back.jpg" alt="grid" className="hero--image" />
       <div className="hero--content">
         <h2>Mazingira Smart</h2>
-        <p className="text-white">
-          Planting seeds of hope and preserving the trees of life
-        </p>
+        <p className="text-white">Conserving Environment Together.</p>
       </div>
     </div>
   );

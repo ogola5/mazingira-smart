@@ -141,7 +141,7 @@ Navbar
 ===============
 */
 nav {
-  background: var(--clr-green);
+  background: var(--clr-grey-1);
   box-shadow: var(--light-shadow);
 }
 .nav-header {
@@ -282,12 +282,13 @@ HERO
   .hero--content {
     display: flex;
     flex-direction: column;
-    max-width: 80%;
+    max-width: 40%;
     margin: 1.2em auto;
     z-index: 1;
     font-size: 2rem;
     font-weight: 600;
     color: var(--clr-white);
+    background-color: rgba(0, 0, 0, 0.5);
     margin-top: -12rem;
   }
   .hero--content h2 {
@@ -357,7 +358,7 @@ INNER PAGES HERO
     font-weight: 600;
     color: var(--clr-white);
     background-color: rgba(0, 0, 0, 0.5);
-    margin-top: -14rem;
+    margin-top: -8rem;
     align-items: center;
   }
   .inner-hero--content h2 {

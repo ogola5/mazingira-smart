@@ -10,19 +10,11 @@ function About() {
         <div className="inner-hero--content">
           <h2>About Us</h2>
           <p>
-            Our organization remains at the forefront of environmental
-            stewardship and sustainability initiatives. The major thematic areas
-            include afforestation, reafforestation, recycling, climate-smart
-            agriculture, and advocacy. We understand the correlation between
-            these practices and promoting adaptation and mitigation to climate
-            change. In addition, we are aware that building resilience by
-            utilizing current and indigenous knowledge helps communities cope
-            with extreme climatic events. Our activities extend to advocacy for
-            socio-economic empowerment targeting the youth and women. We run
-            programs that provide a good base for income generation and
-            sustainable livelihoods hence addressing drug abuse and poverty.
-            Also, we provide them with knowledge transforming them into
-            champions of environmental conservation.
+            Our goal is to pioneer innovative solutions that combat climate
+            change, preserve biodiversity, and promote environment-conscious
+            living. We have adopted a holistic approach that defines true
+            environmental stewardship which is the restoration of natural
+            biodiversity, community engagement, and sustainable development
           </p>
         </div>
       </div>
@@ -34,23 +26,31 @@ function About() {
                 Our History
               </h2>
               <p className=" font-base leading-8">
-                Our organization remains at the forefront of environmental
-                stewardship and sustainability initiatives. <br />
+                Mazingira Smart is a non-governmental organization registered
+                under Section 10 of the Non-Governmental Organizations
+                Coordination Act, 1990. We are based in Nairobi, Kenya. Our goal
+                is to pioneer innovative solutions that combat climate change,
+                preserve biodiversity, and promote environment-conscious living.
+                We have adopted a holistic approach that defines true
+                environmental stewardship which is the restoration of natural
+                biodiversity, community engagement, and sustainable development{" "}
                 <br />
-                The major thematic areas include afforestation, reafforestation,
-                recycling, climate-smart agriculture, and advocacy. We
-                understand the correlation between these practices and promoting
-                adaptation and mitigation to climate change. In addition, we are
-                aware that building resilience by utilizing current and
-                indigenous knowledge helps communities cope with extreme
-                climatic events. <br />
                 <br />
-                Our activities extend to advocacy for socio-economic empowerment
-                targeting the youth and women. We run programs that provide a
-                good base for income generation and sustainable livelihoods
-                hence addressing drug abuse and poverty. Also, we provide them
-                with knowledge transforming them into champions of environmental
-                conservation.
+                At Mazingira Smart, we embrace diversity by welcoming
+                individuals from different backgrounds who provide insight into
+                issues relating to their physical, social, and occupational
+                environments. We work with public and private institutions and
+                organizations, respectively synergizing our efforts to realize
+                common goals. In addition, our activities extend to advocacy for
+                socio-economic empowerment targeting different communities and
+                programs that promote income generation and sustainable
+                livelihoods.
+                <br />
+                <br />
+                Indeed, we believe that our collective efforts serve as a beacon
+                of hope, illuminating a path toward a world with thriving
+                ecosystems. Together, we can make a difference that resonates
+                through time.
               </p>
             </div>
             <div className="relative lg:col-span-6 pl-5 pr-5 ">
@@ -72,32 +72,19 @@ function About() {
             <MdLightbulbOutline size={50} />
             <h2>Vision</h2>
             <p>
-              We aspire to be part of the movement toward a future where
-              ecosystems flourish, natural resources are preserved, and every
-              individual, irrespective of gender or age, is empowered to
-              actively contribute to a resilient, equitable, and environmentally
-              conscious society. We hope to see a world where the relentless
-              impacts of climate change are mitigated, where clean and abundant
-              resources are accessible to all, and where the beauty of our
-              planet is cherished for generations to come. We want to inspire
-              and facilitate a sustainable transformation that safeguards the
-              Earth's vitality while enhancing the quality of life for all its
-              inhabitants..
+              To contribute towards building a sustainable and flourishing
+              ecosystem by preserving natural resources and empowering
+              communities.
             </p>
           </div>
           <div className="flex flex-col lg:col-span-6">
             <MdOutlineRocketLaunch size={50} />
             <h2>Mission</h2>
             <p>
-              Mazingira Smart is dedicated to pioneering innovative solutions
-              and fostering local and global collaboration in the pursuit of
-              environmental sustainability. We seek to address the urgent
-              challenges posed by climate change, promote responsible resource
+              To promote environmental conservation, responsible resource
               management, and empower all individuals for socioeconomic
-              advancement. Through advocacy, education, and impactful
-              initiatives, we strive to create a resilient and ecologically
-              balanced world, leaving a lasting legacy of environmental
-              stewardship that sets a precedent for the global society.
+              advancement through advocacy, education, and impactful
+              initiatives.
             </p>
           </div>
         </section>
@@ -106,93 +93,76 @@ function About() {
         <section className="team-section">
           <div className="items-center ">
             <h2 className="text-5xl text-center pb-8 font-bold text-secondary">
-              Meet the Team
+              Our Core Values
             </h2>
             <article className="flex flex-col lg:grid lg:grid-cols-12 text-center">
-              <div className="lg:col-span-4">
+              <div className="lg:col-span-6">
                 <div className="img-container">
                   <img
-                    src="../../../images/tetu.jpeg"
+                    src="../../../images/integrity.jpg"
                     alt="The team"
                     className="person-img"
                   />
                 </div>
-                <h4 className="author">Peter Nderitu</h4>
-                <p className="job">Chair</p>
+                <h4 className="author text-primary">Integrity</h4>
+                {/* <p className="job">Chair</p> */}
                 <p className="info">
-                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
+                  Commitment to honesty, transparency, and ethical conduct in
+                  all our actions, ensuring the utmost trust and credibility in
+                  our environmental conservation efforts.
                 </p>
               </div>
-              <div className="lg:col-span-4">
+              <div className="lg:col-span-6">
                 <div className="img-container">
                   <img
-                    src="../../../images/person1.jpg"
+                    src="../../../images/respect.jpg"
                     alt="The team"
                     className="person-img"
                   />
                 </div>
-                <h4 className="author">Gerald Maina</h4>
-                <p className="job">Secretary</p>
+                <h4 className="author text-primary">Respect</h4>
+                {/* <p className="job">Secretary</p> */}
                 <p className="info">
-                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
-                </p>
-              </div>
-              <div className="lg:col-span-4">
-                <div className="img-container">
-                  <img
-                    src="../../../images/person2.jpg"
-                    alt="The team"
-                    className="person-img"
-                  />
-                </div>
-                <h4 className="author">Dr. Paul Muriuki</h4>
-                <p className="job">Treasurer</p>
-                <p className="info">
-                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
+                  Honoring the diverse perspectives, cultures, and beliefs of
+                  individuals and communities, fostering an inclusive
+                  environment where everyone's contributions to environmental
+                  conservation are valued and appreciated.
                 </p>
               </div>
             </article>
             <article className="flex flex-col lg:grid lg:grid-cols-12 text-center">
-              <div className="lg:col-span-4">
+              <div className="lg:col-span-6">
                 <div className="img-container">
                   <img
-                    src="../../../images/person1.jpg"
+                    src="../../../images/team.jpg"
                     alt="The team"
                     className="person-img"
                   />
                 </div>
-                <h4 className="author"> Job Gakuya</h4>
-                <p className="job">Board Member</p>
+                <h4 className="author text-primary"> Teamwork</h4>
+                {/* <p className="job">Board Member</p> */}
                 <p className="info">
-                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
+                  Collaborative spirit, where individuals work cohesively,
+                  leveraging diverse skills and perspectives, to achieve common
+                  environmental goals, fostering a stronger, unified impact in
+                  conservation efforts.
                 </p>
               </div>
-              <div className="lg:col-span-4">
+              <div className="lg:col-span-6">
                 <div className="img-container">
                   <img
-                    src="../../../images/person2.jpg"
+                    src="../../../images/lightbulb.jpg"
                     alt="The team"
                     className="person-img"
                   />
                 </div>
-                <h4 className="author">Mercy Njoroge</h4>
-                <p className="job">Board Member</p>
+                <h2 className="author text-primary">Innovation</h2>
+                {/* <p className="job">Board Member</p> */}
                 <p className="info">
-                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
-                </p>
-              </div>
-              <div className="lg:col-span-4">
-                <div className="img-container">
-                  <img
-                    src="../../../images/tetu.jpeg"
-                    alt="The team"
-                    className="person-img"
-                  />
-                </div>
-                <h4 className="author">Daniel Gathieri</h4>
-                <p className="job">Board Member</p>
-                <p className="info">
-                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. */}
+                  Commitment to continuously exploring inventive solutions and
+                  creative approaches, driving the evolution of environmental
+                  conservation practices, and ensuring our initiatives remain
+                  progressive and impactful.
                 </p>
               </div>
             </article>
