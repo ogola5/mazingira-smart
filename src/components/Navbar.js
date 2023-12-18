@@ -45,6 +45,11 @@ function NavBar() {
               </Link>
             </li>
             <li>
+              <Link to="/gallery" className="nav-link">
+                GALLERY
+              </Link>
+            </li>
+            <li>
               <Link to="/contact" className="nav-link">
                 CONTACT
               </Link>

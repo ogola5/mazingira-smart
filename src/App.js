@@ -11,6 +11,7 @@ import About from "./components/pages/About";
 import Goals from "./components/pages/Goals";
 import Project from "./components/pages/Project";
 import Contact from "./components/pages/Contact";
+import Gallery from "./components/pages/Gallery";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/goals" element={<Goals />} />
           <Route path="/project" element={<Project />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
           {/* More routes can be added as needed */}
         </Routes>
