@@ -29,17 +29,12 @@ function Home() {
     <div className="home-container">
       <Hero />
 
-      <div className="home-background-image">
-        {/* <img src="/images/back.jpg" alt="Background" /> */}
-      </div>
+      <div className="home-background-image"></div>
       <div className="home-content">
         <Welcome />
-        {/* <About /> */}
         <Goals />
         <ProjectCard />
-        {/* <Contact /> */}
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }
