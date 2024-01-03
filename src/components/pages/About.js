@@ -105,7 +105,6 @@ function About() {
                   />
                 </div>
                 <h4 className="author text-primary">Integrity</h4>
-                {/* <p className="job">Chair</p> */}
                 <p className="info">
                   Commitment to honesty, transparency, and ethical conduct in
                   all our actions, ensuring the utmost trust and credibility in
@@ -121,7 +120,6 @@ function About() {
                   />
                 </div>
                 <h4 className="author text-primary">Respect</h4>
-                {/* <p className="job">Secretary</p> */}
                 <p className="info">
                   Honoring the diverse perspectives, cultures, and beliefs of
                   individuals and communities, fostering an inclusive
@@ -140,7 +138,6 @@ function About() {
                   />
                 </div>
                 <h4 className="author text-primary"> Teamwork</h4>
-                {/* <p className="job">Board Member</p> */}
                 <p className="info">
                   Collaborative spirit, where individuals work cohesively,
                   leveraging diverse skills and perspectives, to achieve common
@@ -157,7 +154,6 @@ function About() {
                   />
                 </div>
                 <h2 className="author text-primary">Innovation</h2>
-                {/* <p className="job">Board Member</p> */}
                 <p className="info">
                   Commitment to continuously exploring inventive solutions and
                   creative approaches, driving the evolution of environmental
@@ -166,6 +162,35 @@ function About() {
                 </p>
               </div>
             </article>
+          </div>
+        </section>
+
+        <section className="vision-mission  ">
+          <h2 className="text-center">The Team</h2>
+          <div className="flex lg:grid lg:grid-cols-6 text-center mt-8">
+            <div className="flex flex-col lg:col-span-1">
+              <p className="font-bold">Peter Nderitu</p>
+              <p>Chairperson</p>
+            </div>
+            <div className="flex flex-col lg:col-span-1">
+              <p className="font-bold">Gerald Maina</p>
+              <p> Secretary </p>
+            </div>
+            <div className="flex flex-col lg:col-span-1">
+              <p className="font-bold">Dr. Paul Muriuki </p>
+              <p> Treasurer</p>
+            </div>
+            <div className="flex flex-col lg:col-span-1">
+              <p className="font-bold">Job Gakuya </p>
+              <p> Board Member</p>
+            </div>
+            <div className="flex flex-col lg:col-span-1">
+              <p className="font-bold">Mercy Njoroge </p>
+              <p> Board Member</p>
+            </div>
+            <div className="flex flex-col lg:col-span-1">
+              <p className="font-bold">Daniel Gathieri </p> <p>Board Member</p>
+            </div>
           </div>
         </section>
       </div>

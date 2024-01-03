@@ -1,10 +1,6 @@
 import React, { useEffect } from "react";
-// import Header from "../Header";
-// import Footer from "../Footer";
 import Welcome from "./Welcome";
 import Hero from "../Hero";
-// import About from "./About";
-// import Contact from "./Contact";
 import Goals from "./Goals";
 import ProjectCard from "./ProjectCard";
 import "../styles/home.css";
@@ -28,7 +24,6 @@ function Home() {
   return (
     <div className="home-container">
       <Hero />
-
       <div className="home-background-image"></div>
       <div className="home-content">
         <Welcome />
