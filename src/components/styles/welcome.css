@@ -3101,6 +3101,9 @@ body {
   .lg\:h-48 {
     height: 12rem;
   }
+  .lg\:h-56 {
+    height: 20rem;
+  }
 
   .lg\:h-6 {
     height: 1.5rem;
@@ -3231,6 +3234,9 @@ body {
   }
   .lg\:grid-cols-5 {
     grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
@@ -3761,4 +3767,7 @@ Projects
   .photo {
     height: 150px;
   }
+}
+.pull-r {
+  float: right;
 }

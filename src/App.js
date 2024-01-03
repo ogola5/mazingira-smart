@@ -12,6 +12,7 @@ import Goals from "./components/pages/Goals";
 import Project from "./components/pages/Project";
 import Contact from "./components/pages/Contact";
 import Gallery from "./components/pages/Gallery";
+import Blog from "./components/pages/Blog";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/goals" element={<Goals />} />
           <Route path="/project" element={<Project />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           {/* More routes can be added as needed */}
         </Routes>
