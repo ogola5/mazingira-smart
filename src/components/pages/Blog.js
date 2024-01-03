@@ -6,7 +6,7 @@ const Blog = () => {
     <>
       <section className="blog max-w-7xl mx-auto pt-16 pb-16 ">
         <div className="section-bg lg:rounded-3xl">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-5xl mx-auto blog-content">
             <div className="pt-16 text-center ">
               <h2 className="text-xl font-semibold text-primary pb-12">
                 MAZINGIRA SMART’S CALL FOR A GREEN AND SUSTAINABLE FUTURE
