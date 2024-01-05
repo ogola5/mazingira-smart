@@ -21,9 +21,9 @@ const Goals = () => {
             Afforestation and Reafforestation
           </h3>
           <p class="text-[15px] font-normal leading-7 text-[#5D5A6F]">
-            We aim to plant 5000 trees annually to restore critical ecosystems,
-            encourage biodiversity, and promote economic empowerment through
-            fruit farming and climate-smart agriculture.
+            We aim to plant 100,000 trees annually to restore critical
+            ecosystems, encourage biodiversity, and promote economic empowerment
+            through fruit farming and climate-smart agriculture.
           </p>
         </li>
         <li class="flex flex-col items-center px-5 py-10 text-center ease-in-out bg-white rounded hover:shadow-card hover:transition">

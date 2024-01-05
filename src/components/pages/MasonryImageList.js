@@ -95,4 +95,60 @@ const itemData = [
     img: "../../../images/18.jpeg",
     title: "Mazingira Smart",
   },
+  {
+    img: "../../../images/19.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/20.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/21.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/22.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/23.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/24.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/25.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/26.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/27.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/28.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/29.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/30.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/31.jpg",
+    title: "Mazingira Smart",
+  },
+  {
+    img: "../../../images/32.jpg",
+    title: "Mazingira Smart",
+  },
 ];
